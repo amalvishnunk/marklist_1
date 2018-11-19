@@ -1,0 +1,74 @@
+{%extends 'layout.html'%}
+{%block mycontent%}
+<form action="/send" method="POST">
+<div class="col-sm-6"><br>
+    <div class="row">
+        <div class="col-sm-6">name:</div>
+        <div class="col-sm-6"><input type="text"name="getname" class="form-control"></div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-6">Reg.No:</div>
+        <div class="col-sm-6"><input type="number" class="form-control" name="getregno"></div>
+    </div><br>
+    <!-- sub1 -->
+    <div class="row">
+        <div class="col-sm-6">name of subject1</div>
+        <div class="col-sm-6"><input type="text"class="form-control" name="getsub1_name"></div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-6">marks obtained in subject1</div>
+        <div class="col-sm-6"><input type="number" class="form-control" name=getsub1_ob></div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-6">total marks of subject1</div>
+        <div class="col-sm-6"><input type="number"class="form-control"name=getsub1_total></div>
+    </div><br>
+<!-- sub2 -->
+<div class="row">
+        <div class="col-sm-6">name of subject2</div>
+        <div class="col-sm-6"><input type="text"class="form-control" name="getsub2_name"></div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-6">marks obtained in subject2</div>
+        <div class="col-sm-6"><input type="number" class="form-control" name=getsub2_ob></div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-6">total marks of subject2</div>
+        <div class="col-sm-6"><input type="number"class="form-control"name=getsub2_total></div>
+    </div><br>
+<!-- sub3 -->
+<div class="row">
+        <div class="col-sm-6">name of subject3</div>
+        <div class="col-sm-6"><input type="text"class="form-control" name="getsub3_name"></div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-6">marks obtained in subject3</div>
+        <div class="col-sm-6"><input type="number" class="form-control" name=getsub3_ob></div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-6">total marks of subject3</div>
+        <div class="col-sm-6"><input type="number"class="form-control"name=getsub3_total></div>
+    </div><br>
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"><input type="submit" value="Generate" class="btn-primary"></div>
+    </div>
+</div>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{%endblock%}

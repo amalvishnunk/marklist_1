@@ -1,0 +1,55 @@
+{%extends 'layout.html'%}
+{%block mycontent%}
+
+<div class="col"><br>
+    <div class="row">
+        <div class="col-2">Name:</div>
+        <div class="col-2">{{stuname}}</div>
+    </div>
+    <div class="row">
+        <div class="col-2">Reg no:</div>
+        <div class="col-2">{{sregno}}</div>
+    </div><br>
+    
+    <div class="row">
+            <div class="col"><b>Subject</b></div>
+            <div class="col"><b>Marks Obtained</b></div>
+            <div class="col"><b>Total Marks</b></div>
+            <div class="col"><b>Grade</b></div>
+    </div>
+
+    <div class="row">
+            <div class="col">{{s1name}}</div>
+            <div class="col">{{s1_markob}}</div>
+            <div class="col">{{s1_totalm}}</div>
+            <div class="col">{{s1grade}}</div>
+    </div>
+    <div class="row">
+            <div class="col">{{s2name}}</div>
+            <div class="col">{{s2_markob}}</div>
+            <div class="col">{{s2_totalm}}</div>
+            <div class="col">{{s2grade}}</div>
+    </div>
+    <div class="row">
+            <div class="col">{{s3name}}</div>
+            <div class="col">{{s3_markob}}</div>
+            <div class="col">{{s3_totalm}}</div>
+            <div class="col">{{s3grade}}</div>
+    </div><br>
+
+    <div class="row">
+        <div class="col-2"><b>Overall Status:</b></div>
+        <div class="col-2">{{status}}</div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+{%endblock%}

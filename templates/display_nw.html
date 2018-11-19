@@ -1,0 +1,90 @@
+{%extends 'layout.html'%}
+{%block mycontent%}
+
+<div class="mx-auto">
+    <!-- title table -->
+    <div class="table table-borderless">
+        <tr>
+            <td><b>Name:</b></td>
+            <td>{{stuname}}</td><br>
+            <td><b>Register No:</b></td>
+            <td>{{sregno}}</td>
+        </tr>
+    </div>
+    <div class="table">
+        <thead>
+            <tr>
+                <th>Subject Name</th>
+                <th>Marks Obtained</th>
+                <th>Total mark</th>
+                <th>Grade</th>
+            </tr><br>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{s1name}}</td>
+                <td>{{s1_markob}}</td>
+                <td>{{s1_totalm}}</td>
+                <td>{{s1grade}}</td>
+            </tr>
+            <tr>
+                    <td>{{s2name}}</td>
+                    <td>{{s2_markob}}</td>
+                    <td>{{s2_totalm}}</td>
+                    <td>{{s2grade}}</td>
+            </tr>
+            <tr>
+                    <td>{{s3name}}</td>
+                    <td>{{s3_markob}}</td>
+                    <td>{{s3_totalm}}</td>
+                    <td>{{s3grade}}</td>
+            </tr>
+            <tr>
+                <th>Overall Status</th>
+                <td>{{status}}</td>
+            </tr>
+
+        </tbody>
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{sregno}}
+{{s1name}}
+{{s1_markob}}
+{{s1_totalm}}
+{{s1grade}}
+{{s2name}}
+{{s2_markob}}
+{{s2_totalm}}
+{{s2grade}}
+{{s3name}}
+{{s3_markob}}
+{{s3_totalm}}
+{{s3grade}}
+{{status}}
+
+{%endblock%}
